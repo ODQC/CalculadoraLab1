@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CalculadoraLab1</string>
+    <string name="Cientifica" />
+    <string name="atras" />
 </resources>
