@@ -45,8 +45,9 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
                 return true
             }
-            R.id.Back -> {
 
+            R.id.Back -> {
+                onBackPressed()
                 return true
             }
             else -> return super.onOptionsItemSelected(item)
